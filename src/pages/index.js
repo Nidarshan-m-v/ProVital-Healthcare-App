@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "./app/components/NavBar";
-import HeroSection from "./app/components/HeroSection";
-import Lifestyle from "./app/components/Lifestyle";
+import Navbar from "../app/components/NavBar";
+import HeroSection from "../app/components/HeroSection";
+import Lifestyle from "../app/components/Lifestyle";
 
 export const metadata = {
   title: "ProVital",
