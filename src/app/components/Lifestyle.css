@@ -53,9 +53,11 @@
 
 .gradient-text {
   background: linear-gradient(to right, #f0c971, #e5688c);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text; /* Standard property for background-clip */
+  background-clip: text; /* Vendor-specific property for WebKit browsers */
+  -webkit-text-fill-color: transparent; /* Ensures text color is transparent for gradient */
 }
+
 
 /* Tabs Container */
 .tabs-container {

@@ -96,8 +96,9 @@
 
 .welcome-text h1 span {
   background: linear-gradient(90deg, #4683D0 0%, #7CD0A2 100%); /* Set gradient colors */
-  -webkit-background-clip: text; /* Clip the gradient to the text */
-  -webkit-text-fill-color: transparent; 
+  -webkit-background-clip: text; /* Standard property for background-clip */
+  background-clip: text; /* Vendor-specific property for WebKit browsers */
+  -webkit-text-fill-color: transparent; /* Ensures text color is transparent for gradient */
   font-weight: bold;
 }
 
